@@ -55,6 +55,29 @@ Para rodar este projeto localmente, siga os passos abaixo.
 - Node.js instalado
 - MongoDB instalado ou uma instância do MongoDB Atlas
 
+### Passo-a-Passo
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/lucaspco/LTD-Frontend-ChefsSociete.git
+   cd LTD-Frontend-ChefsSociete
+   ```
+
+2. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+
+3. Execute o frontend:
+
+   ```bash
+   npm start
+   ```
+
+O servidor estará disponível em `http://localhost:3000`.
+
 ## Uso
 
 - **Cadastro e Login:** Crie um perfil para acessar as funcionalidades.
