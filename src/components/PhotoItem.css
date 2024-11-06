@@ -1,0 +1,26 @@
+/* PhotoItem.css */
+.photo-item img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#home .photo-item h2 {
+  margin-bottom: 0.2em;
+  color: #d4af37; /* Dourado */
+}
+
+.photo-author {
+  text-align: left;
+  color: #999;
+}
+
+.photo-author a {
+  font-weight: bold;
+  color: #d4af37; /* Dourado */
+  text-decoration: none;
+}
+
+.photo-author a:hover {
+  text-decoration: underline;
+}

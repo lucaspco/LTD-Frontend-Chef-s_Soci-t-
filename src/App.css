@@ -1,0 +1,9 @@
+.container {
+    min-height: 70vh;
+}
+/* Remover cursor de texto globalmente, mas manter em campos de entrada */
+*:not(input):not(textarea) {
+    user-select: none;
+    cursor: default;
+  }
+  

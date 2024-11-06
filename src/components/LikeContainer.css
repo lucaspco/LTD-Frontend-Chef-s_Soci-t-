@@ -1,0 +1,24 @@
+/* LikeContainer.css */
+.like {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #363636;
+  border-bottom: 1px solid #363636;
+  padding: 0.5em;
+}
+
+.like svg {
+  color: #d4af37; /* Dourado */
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.like svg:hover {
+  transform: scale(1.2);
+}
+
+.like p {
+  margin-left: 1em;
+  color: #e0e0e0;
+}

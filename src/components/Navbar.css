@@ -1,0 +1,56 @@
+/* Navbar.css */
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  border-bottom: 1px solid #363636;
+  padding: 1em;
+}
+
+#nav h2 {
+  color: #d4af37; /* Dourado */
+  font-family: 'Georgia', serif;
+  margin: 0;
+}
+
+#search-form {
+  position: relative;
+  width: 20%;
+}
+
+#search-form svg {
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  color: #d4af37; /* Dourado */
+}
+
+#search-form input {
+  padding-left: 2.5em;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0;
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+#nav-links {
+  display: flex;
+  align-items: center;
+}
+
+#nav-links li {
+  margin-right: 1em;
+}
+
+#nav-links span {
+  cursor: pointer;
+  color: #d4af37; /* Dourado */
+}
+
+#nav-links svg {
+  color: #d4af37; /* Dourado */
+  font-size: 1.5em;
+}

@@ -1,0 +1,29 @@
+/* Home.css */
+#home {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2em;
+  color: #e0e0e0;
+}
+
+#home .btn {
+  display: block;
+  max-width: 80px;
+  text-align: center;
+  margin: 0.5em 0 2em 0;
+  background-color: #d4af37; /* Dourado */
+  color: #121212;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.no-photos {
+  text-align: center;
+  color: #999;
+}
+
+.no-photos a {
+  color: #0094f6;
+  text-decoration: underline;
+}
